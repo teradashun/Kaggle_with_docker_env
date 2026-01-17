@@ -1,7 +1,7 @@
 services:
   kaggle:
     build: .
-    container_name: kaggle_titanic
+    container_name: kaggle
     volumes:
       - .:/app
       # - .:/home/jovyan/work
